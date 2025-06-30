@@ -1,0 +1,7 @@
+{
+  "name": "Broken_Limbs",
+  "version_number": "1.0.0",
+  "website_url": "https://peakmodding.github.io",
+  "description": "Breakable limbs with their downsides...",
+  "dependencies": ["BepInEx-BepInExPack_PEAK-5.4.2403"]
+}
