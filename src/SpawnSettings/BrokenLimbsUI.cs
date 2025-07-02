@@ -12,8 +12,9 @@ namespace BrokenLimbs
 
         void Start ()
         {
-            limbs = GameObject.FindFirstObjectByType<Logic>().limbs;
             logic = GameObject.FindFirstObjectByType<Logic>();
+            limbs = logic.limbs;
+            Debug.Log("CUm");
         }
 
         public void OnGUI()
