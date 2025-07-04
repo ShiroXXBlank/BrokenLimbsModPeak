@@ -115,10 +115,5 @@ namespace BrokenLimbs
                 limb.Health = healthValue;
             }
         }
-
-        public List<Limb> GetLimbs()
-        {
-            return limbs;
-        }
     }
 }
